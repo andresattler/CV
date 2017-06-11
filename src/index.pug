@@ -3,20 +3,28 @@ html
   head
     link(rel="stylesheet" href="./style.css")
   body
-    aside
-      img.profile(src="profile.jpg")
-      h2 Hy I am André
+    header
+      .profile
+        img(src="profile.jpg")
+      .heading
+        h1 André Sattler
+        .contacts
+          include:markdown-it contacts.md
     main  
       section
-        h1 About
+        h2 About
         p
           include:markdown-it about.md
       section
-        h1 Education
+        h2 Technical Toolset
+        p 
+          include:markdown-it technical-toolset.md
+      section
+        h2 Education
         p 
           include:markdown-it education.md
       section 
-       h1 Work History
+       h2 Work History
        p
          include:markdown-it work-history.md
         
