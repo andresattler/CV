@@ -1,0 +1,26 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andresattler <andresattler.webdev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-preset-latest": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-webserver": "^0.9.1",
+    "jstransformer-markdown-it": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}

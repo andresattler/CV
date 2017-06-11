@@ -1,0 +1,35 @@
+html {
+  background: #000;
+}
+body {
+  margin: 0;
+  background: #fff;
+  width: 210mm;
+  height: 297mm;
+  display: flex;
+}
+aside {
+  height: 100%;
+  width: 30%;
+  background-color: #333;
+  color: #989898;
+}
+aside .profile {
+  width: 90%;
+}
+main {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: #989898;
+}
+main section {
+  background: #fff;
+  margin-top: 5mm;
+  border-radius: 1mm;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 2mm;
+}
