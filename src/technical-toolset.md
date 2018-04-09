@@ -1,5 +1,5 @@
-Languages:   Javascript (ES6), Css, Html, Stylus, Pug\
-Tools:       Gulp, Webpack, Git\
-Libarys:     React, React-Router, some THREE.js\
+Languages:   Javascript, Css, Html, Stylus, Pug\
+Tools:       Node.js, Webpack, Git, Vim\
+Libarys:     React, Redux, React-Router, some THREE.js and WebGL\
 General:     responsive Design\
-Prefered OS: Linux(Arch Linux)\
+Prefered OS: Linux(Arch Linux)
