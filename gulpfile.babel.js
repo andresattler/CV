@@ -1,32 +1,29 @@
-import gulp from 'gulp'
+import gulp, { watch } from 'gulp'
 import pug from 'gulp-pug'
 import stylus from 'gulp-stylus'
 import webserver from 'gulp-webserver'
 import del from 'del'
 
-gulp.task('buildHTML', () =>
+export const html = () =>
   gulp.src('src/index.pug')
     .pipe(pug())
     .pipe(gulp.dest('lib'))
-)
 
-gulp.task('buildCSS', () =>
+export const css = () =>
   gulp.src('src/style.styl')
     .pipe(stylus())
     .pipe(gulp.dest('lib'))
-)
-gulp.task('webserver', () =>
+
+export const server = () =>
   gulp.src('lib')
     .pipe(webserver({
       livereload: true,
       open: true,
     }))
-  )
 
-gulp.task('main', ['buildHTML', 'buildCSS'])
+const main = () => {
+  watch('src/*.styl', css) 
+  watch('src/*.pug', html)
+}
 
-gulp.task('watch', () =>
-  gulp.watch('src/*', ['main'])
-)
-
-gulp.task('default', ['main', 'watch', 'webserver'])
+export default gulp.parallel(main, server)

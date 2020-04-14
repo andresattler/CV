@@ -10,12 +10,13 @@ body {
   background-color: #fff;
   width: 210mm;
   height: 297mm;
+  font-family: Source Code Pro;
 }
 header {
   display: flex;
   height: 20%;
   width: 100%;
-  background-color: #333;
+  background-color: #2e3440;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 header .profile {
@@ -38,17 +39,20 @@ header .heading {
 header .heading h1 {
   display: inline-block;
   padding: 1mm;
-  color: #ad974f;
   font-size: 46px;
   font-weight: bold;
   border-radius: 1mm;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 10px;
+  white-space: pre-wrap;
+  color: #bf616a;
 }
 header .heading .contacts {
   display: inline-block;
   text-align: left;
   padding: 1mm;
-  color: #868686;
+  font-size: 16px;
+  color: #d6d6d6;
 }
 header .heading .contacts p {
   margin: 0;
@@ -64,11 +68,10 @@ main {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-image: url("background.png");
+  background-color: #2e3440;
 }
 main section {
-  background-color: #333;
-  color: #ad974f;
+  color: #d6d6d6;
   margin-top: 5mm;
   border-radius: 1mm;
   width: 90%;
@@ -76,7 +79,14 @@ main section {
   padding: 2mm;
 }
 main section h2 {
+  background-color: #bf616a;
   margin: 0;
   padding: 1mm;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+footer .coffee {
+  color: #bf616a;
+}
+footer .link {
+  color: #d6d6d6;
 }

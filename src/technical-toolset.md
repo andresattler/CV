@@ -1,5 +1,5 @@
-Languages:   Javascript, Css, Html, Stylus, Pug\
-Tools:       Node.js, Webpack, Git, Vim\
-Libarys:     React, Redux, React-Router, some THREE.js and WebGL\
-General:     responsive Design\
-Prefered OS: Linux(Arch Linux)
+**Languages**: Typescript, ESNext, Sass, (some Rust)  
+**Tools**: Node.js, Webpack, Storybook, Cypress, Git, Docker, GitLab CI  
+**Libraries**: React, Redux, React-Router, Leaflet, Immer.js  
+**Dev environment**: Linux(Arch Linux), I3, Vim  
+**Languages**: English (main work language), German (native)

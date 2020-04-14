@@ -7,7 +7,10 @@ html
       .profile
         img(src="profile.jpg")
       .heading
-        h1 André Sattler
+        h1
+          | ░█▀▀▄░▒█▄░▒█░▒█▀▀▄░▒█▀▀▄░▒█▀▀▀░░░▒█▀▀▀█░█▀▀▄░▀▀█▀▀░▀▀█▀▀░▒█░░░░▒█▀▀▀░▒█▀▀▄
+          | ▒█▄▄█░▒█▒█▒█░▒█░▒█░▒█▄▄▀░▒█▀▀▀░░░░▀▀▀▄▄▒█▄▄█░░▒█░░░░▒█░░░▒█░░░░▒█▀▀▀░▒█▄▄▀
+          | ▒█░▒█░▒█░░▀█░▒█▄▄█░▒█░▒█░▒█▄▄▄░░░▒█▄▄▄█▒█░▒█░░▒█░░░░▒█░░░▒█▄▄█░▒█▄▄▄░▒█░▒█
         .contacts
           include:markdown-it contacts.md
     main  
@@ -15,17 +18,13 @@ html
         h2 About
         p
           include:markdown-it about.md
-      section
-        h2 Technical Toolset
-        p 
-          include:markdown-it technical-toolset.md
-      section
-        h2 Education
-        p 
-          include:markdown-it education.md
       section 
        h2 Work History
        p
          include:markdown-it work-history.md
-        
-        
+      section
+        h2 Technical Toolset
+        p 
+          include:markdown-it technical-toolset.md
+      footer
+        p build with <span class="coffee">☕</span> and code <a class="link" href="https://github.com/andresattler/CV">see github</a>
