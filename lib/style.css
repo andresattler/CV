@@ -51,12 +51,13 @@ header .heading .contacts {
   display: inline-block;
   text-align: left;
   padding: 1mm;
-  font-size: 16px;
+  font-size: 11px;
   color: #d6d6d6;
 }
 header .heading .contacts p {
   margin: 0;
   font-weight: bold;
+  white-space: pre-wrap;
 }
 header .heading .contacts a {
   text-decoration: none;
