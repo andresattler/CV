@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "chalk": "^4.0.0",
-    "marked": "^0.8.2",
+    "marked": "^4.0.10",
     "marked-terminal": "^4.0.0"
   },
   "devDependencies": {
