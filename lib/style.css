@@ -60,7 +60,6 @@ header .heading .contacts p {
   white-space: pre-wrap;
 }
 header .heading .contacts a {
-  text-decoration: none;
   color: inherit;
 }
 header .heading .cli-info {
@@ -86,8 +85,11 @@ main section {
 main section h2 {
   background-color: #268bd2;
   margin: 0;
-  padding: 1mm;
+  padding: 8px 16px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+main section a {
+  color: inherit;
 }
 footer .coffee {
   color: #268bd2;

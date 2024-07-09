@@ -1,13 +1,13 @@
 - **side project** Jan 2024 - today
   - building and researching an own AI-driven product insights Sass tool which helps other Sass businesses to have a better overview of customer feedback and market insights, to make better product roadmap decisions, and increase customer loyalty
-- **Sapiens Germany** July 2020 - today ~ https://dach.sapiens.com/
+- **Sapiens Germany** July 2020 - today ~ [https://dach.sapiens.com/](https://dach.sapiens.com/)
   - became tech lead from Feb 2022
     - this role included mentoring junior developers, being a contact for support, and technical conception
   - took part in transitioning multiple insurance projects into one product solution
   - shaped the k8s shift using pulumi and later helm
   - started as one of few developers of a portal over legacy insurance solution
   - developed an insurance policy administration system
-- **Lokalportal** May July 2020 - today ~ https://lokalportal.de/
+- **Lokalportal** May July 2020 - today ~ [https://lokalportal.de/](https://lokalportal.de/)
   - developed a social news platform for local communities
   - shaped and influenced many major architecture decisions about routing, geo-position-flows, and authentication
   - on-boarded and supported other developers
