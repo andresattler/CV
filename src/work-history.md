@@ -1,11 +1,18 @@
-* **Lokalportal** May 2018 - today ~ https://lokalportal.de/
-  * developed a social news platform for local communities
-  * shaped and influenced many major architecture decisions about routing, geo-position-flows and authentication
-  * helped and taught other developers about parts/structure of applications and the technologies used
-  * researched and POCed new concepts and technologies
-  * transitioned from capybara to Cypress.io
-  * developed a webSocket node server plus client library to allow topic chat-rooms in geographic shapes
-  * restructured platform into 2 branched of products
-* **Traveler** August 2016 - May 2018
-  * through hiked the whole length of New Zealand
-* **IT-Soldier**, German Army July 2015 – August 2016
+- **side project** Jan 2024 - today
+  - building and researching an own AI-driven product insights Sass tool which helps other Sass businesses to have a better overview of customer feedback and market insights, to make better product roadmap decisions, and increase customer loyalty
+- **Sapiens Germany** July 2020 - today ~ https://dach.sapiens.com/
+  - became tech lead from Feb 2022
+    - this role included mentoring junior developers, being a contact for support, and technical conception
+  - took part in transitioning multiple insurance projects into one product solution
+  - shaped the k8s shift using pulumi and later helm
+  - started as one of few developers of a portal over legacy insurance solution
+  - developed an insurance policy administration system
+- **Lokalportal** May July 2020 - today ~ https://lokalportal.de/
+  - developed a social news platform for local communities
+  - shaped and influenced many major architecture decisions about routing, geo-position-flows, and authentication
+  - on-boarded and supported other developers
+  - researched and POC'd new concepts and technologies
+  - transitioned from Capybara to Cypress.io
+  - developed a web socket node server plus client library to allow topic chat rooms in geographic shapes
+- **Crossed New Zealand by feet** August 2016 - May 2018
+- **IT-Soldier**, German Army July 2015 – August 2016

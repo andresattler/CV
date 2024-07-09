@@ -1,5 +1,3 @@
-**Languages**: Typescript, ESNext, Sass, (some Rust)  
-**Tools**: Node.js, Webpack, Storybook, Cypress, Git, Docker, GitLab CI  
-**Libraries**: React, Redux, React-Router, Leaflet, immer.js  
-**Dev environment**: Linux(Arch Linux), i3, Vim  
-**Languages**: English (main work language), German (native)
+Apollo-Client, Apollo-Server, Bash, Cypress, Docker, ESBuild, GQL, Git,
+GitLab CI, Jest, Kubernetes, Next, Node.js, Nuxt, Playwright, React, Typescript,
+Vite, Vitest, Vue.js, Webpack
